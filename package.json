@@ -1,0 +1,19 @@
+{
+  "name": "email-listener-node",
+  "version": "1.0.0",
+  "description": "A Node.js email listener app that processes CSV attachments and sends data to an API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "imap-simple": "^5.0.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
